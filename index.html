@@ -12,211 +12,195 @@
 
 <body>
     
-        <nav >
-            <div class="logo">
-                <img src="images/Logo.svg" alt="logo">
-            </div>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Process</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#" class="btn light">contact</a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- hero section -->
-        <div class="hero-container">
-            <div class="hero-text">
-                <h1>Hello, I'm <br> Ashutosh Mahi</h1>
-                <p class="subtitle">
-                    I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive
-                    and beautiful web applications through carefully crafted code and user-centric design.
-                </p>
-                <a href="#" class="btn dark">Say Hello!</a>
-
-                <div class="stats-wrapper">
-                    <div class="stat">
-                        <h3>15 Y.</h3>
-                        <p>Experience</p>
-                    </div>
-                    <div class="stat">
-                        <h3>250+</h3>
-                        <p>Project Completed</p>
-                    </div>
-                    <div class="stat">
-                        <h3>58</h3>
-                        <p>Happy Client</p>
-                    </div>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="images/unsplash_wKOKidNT14w.svg" alt="abc">
-            </div>
-            
+    <header>
+        <div class="logo">
+            <h2><span> &nbsp;A  </span>&nbsp;Ashoutosh</h2>
         </div>
-        <!--about section 1 -->
-        <section class="about">
-            <div class="about-img">
-                <img src="images/About Picture & social Media.png" alt="">
-            </div>
-            <div class="about-text">
-                <h4>I am Professional User Experience Designer</h4>
-                <p>I design and develop services for customers specializing 
-                    creating stylish, modern websites, web services.
-                </p>
-                <div class="about-btn">
-                    <a href="#" class="btn">My Project</a>
-                    <a href="#" class="btn-d"><i class="fa-solid fa-download"></i>
-                        Download</a>
-                </div>
-            </div>
-        </section>
-        <!-- work Process -->
-        <section class="work-process">
-            <div class="work-text">
-                <h2>Work Process</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.</p>
-            </div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#process">Process</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#blog">Blog</a>
+            <a href="#hp">Services</a>
+            <a href="#contact" class="btn light">contact</a>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
 
-            <div class="process-grid">
-                <div class="card">
-                    <i class="fa-thin fa-clipboard"></i>
-                    <h3>1. Research</h3>
-                    <p>Lorem ipsum...</p>
+    <!-- hero section -->
+    <div class="hero-container" id="home">
+        <div class="hero-text">
+            <h1>Hello, I'm <br> Ashutosh Mahi</h1>
+            <p class="subtitle">
+                I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive
+                and beautiful web applications through carefully crafted code and user-centric design.
+            </p>
+            <a href="#" class="btn dark">Say Hello!</a>
+            <div class="stats-wrapper">
+                <div class="stat">
+                    <h3>15 Y.</h3>
+                    <p>Experience</p>
                 </div>
-                <div class="card">
-                    <i class="fa-thin fa-chart-line"></i>
-                    <h3>2. Analyze</h3>
-                    <p>Lorem ipsum...</p>
+                <div class="stat">
+                    <h3>250+</h3>
+                    <p>Project Completed</p>
                 </div>
-                <div class="card">
-                    <i class="fa-thin fa-pen"></i>
-                    <h3>3. Design</h3>
-                    <p>Lorem ipsum...</p>
-                </div>
-                <div class="card">
-                    <i class="fa-thin fa-laptop"></i>
-                    <h3>4. Launch</h3>
-                    <p>Lorem ipsum...</p>
+                <div class="stat">
+                    <h3>58</h3>
+                    <p>Happy Client</p>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="hero-image">
+            <img src="images/unsplash_wKOKidNT14w.svg" alt="abc">
+        </div>
 
-         <!-- portfolio sectoin -->
-         <section class="portfolio">
-            <div class="project">
-                <div class="p-text">
-                    <h2>Portfolio</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Itaque nam blanditiis incidunt accusamus et id!
-                </p>
-                </div>
-                <div class="portfolio-card">
-
-                    <div class="portfolio-card1">
-                        <div class="pcard1">
-                            <div class="port-img">
-                                <img src="images/imgPort1.jpg" alt="imgPort1">
-                            </div>
-                            <div class="port-text">
-                                <p>UI-UX DESIGN</p>
-                                <h4>Product Admin Dashboard</h4>
-                                <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+    </div>
+    <!--about section 1 -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/About Picture & social Media.png" alt="">
+        </div>
+        <div class="about-text">
+            <h4>I am Professional User Experience Designer</h4>
+            <p>I design and develop services for customers specializing 
+                creating stylish, modern websites, web services.
+            </p>
+            <div class="about-btn">
+                <a href="#" class="btn">My Project</a>
+                <a href="#" class="btn-d"><i class="fa-solid fa-download"></i>
+                    Download</a>
+            </div>
+        </div>
+    </section>
+    <!-- work Process -->
+    <section class="work-process" id="process">
+        <div class="work-text">
+            <h2>Work Process</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non, laoreet imperdiet orci. Mauris ultrices eget lorem ac vestibulum. Suspendis imperdiet,</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla purus arcu, varius eget velit non.</p>
+        </div>  
+        <div class="process-grid">
+            <div class="card">
+                <i class="fa-thin fa-clipboard"></i>
+                <h3>1. Research</h3>
+                <p>Lorem ipsum...</p>
+            </div>
+            <div class="card">
+                <i class="fa-thin fa-chart-line"></i>
+                <h3>2. Analyze</h3>
+                <p>Lorem ipsum...</p>
+            </div>
+            <div class="card">
+                <i class="fa-thin fa-pen"></i>
+                <h3>3. Design</h3>
+                <p>Lorem ipsum...</p>
+            </div>
+            <div class="card">
+                <i class="fa-thin fa-laptop"></i>
+                <h3>4. Launch</h3>
+                <p>Lorem ipsum...</p>
+            </div>
+        </div>
+    </section>  
+     <!-- portfolio sectoin -->
+    <section class="portfolio" id="portfolio">
+        <div class="project">
+            <div class="p-text">
+                <h2>Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque nam blanditiis incidunt accusamus et id!
+            </p>
+            </div>
+            <div class="portfolio-card"> 
+                <div class="portfolio-card1">
+                    <div class="pcard1">
+                        <div class="port-img">
+                            <img src="images/imgPort1.jpg" alt="imgPort1">
+                        </div>
+                        <div class="port-text">
+                            <p>UI-UX DESIGN</p>
+                            <h4>Product Admin Dashboard</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                        <div>
+                            <a href="#" class="port-btn">case Strdy →</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="pcard1">
+                        <div class="port-img">
+                            <img src="images/imgPort2.jpg" alt="imgPort2">
+                        </div>
+                        <div class="port-text">
+                            <p>UI-UX DESIGN</p>
+                            <h4>Product Admin Dashboard</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
                             <div>
-                                <a href="#" class="port-btn">case Strdy →</a>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="pcard1">
-                            <div class="port-img">
-                                <img src="images/imgPort2.jpg" alt="imgPort2">
-                            </div>
-                            <div class="port-text">
-                                <p>UI-UX DESIGN</p>
-                                <h4>Product Admin Dashboard</h4>
-                                <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                                <div>
-                                <a href="#" class="port-btn">case Strdy →</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pcard1">   
-                            <div class="port-img">
-                                <img src="images/imgPort3.jpg" alt="imgPort3">
-                            </div>
-                            <div class="port-text">
-                                <p>UI-UX DESIGN</p>
-                                <h4>Product Admin Dashboard</h4>
-                                <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                                <div>
-                                <a href="#" class="port-btn">case Strdy →</a>
-                                </div>
+                            <a href="#" class="port-btn">case Strdy →</a>
                             </div>
                         </div>
                     </div>
-
-                    <div class="portfolio-card2">
-                        <div class="pcard1">
-                            <div class="port-img">
-                                <img src="images/imgPort1.jpg" alt="imgPort1">
-                            </div>
-                            <div class="port-text">
-                                <p>UI-UX DESIGN</p>
-                                <h4>Product Admin Dashboard</h4>
-                                <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                    <div class="pcard1">   
+                        <div class="port-img">
+                            <img src="images/imgPort3.jpg" alt="imgPort3">
+                        </div>
+                        <div class="port-text">
+                            <p>UI-UX DESIGN</p>
+                            <h4>Product Admin Dashboard</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
                             <div>
-                                <a href="#" class="port-btn">case Strdy →</a>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="pcard1">
-                            <div class="port-img">
-                                <img src="images/imgPort2.jpg" alt="imgPort2">
-                            </div>
-                            <div class="port-text">
-                                <p>UI-UX DESIGN</p>
-                                <h4>Product Admin Dashboard</h4>
-                                <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                                <div>
-                                <a href="#" class="port-btn">case Strdy →</a>
-                                </div>
+                            <a href="#" class="port-btn">case Strdy →</a>
                             </div>
                         </div>
-                        <div class="pcard1">   
-                            <div class="port-img">
-                                <img src="images/imgPort3.jpg" alt="imgPort3">
+                    </div>
+                </div>   
+                <div class="portfolio-card2">
+                    <div class="pcard1">
+                        <div class="port-img">
+                            <img src="images/imgPort1.jpg" alt="imgPort1">
+                        </div>
+                        <div class="port-text">
+                            <p>UI-UX DESIGN</p>
+                            <h4>Product Admin Dashboard</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                        <div>
+                            <a href="#" class="port-btn">case Strdy →</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="pcard1">
+                        <div class="port-img">
+                            <img src="images/imgPort2.jpg" alt="imgPort2">
+                        </div>
+                        <div class="port-text">
+                            <p>UI-UX DESIGN</p>
+                            <h4>Product Admin Dashboard</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div>
+                            <a href="#" class="port-btn">case Strdy →</a>
                             </div>
-                            <div class="port-text">
-                                <p>UI-UX DESIGN</p>
-                                <h4>Product Admin Dashboard</h4>
-                                <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
-                                <div>
-                                <a href="#" class="port-btn">case Strdy →</a>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="pcard1">   
+                        <div class="port-img">
+                            <img src="images/imgPort3.jpg" alt="imgPort3">
+                        </div>
+                        <div class="port-text">
+                            <p>UI-UX DESIGN</p>
+                            <h4>Product Admin Dashboard</h4>
+                            <p>Vivamus eleifend convallis ante, non pharetra libero molestie laoreet. Donec id imperdiet lacus.</p>
+                            <div>
+                            <a href="#" class="port-btn">case Strdy →</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 <!-- projet section -->
         <section class="projcet-idea">
             <div class="project-text">
@@ -228,7 +212,7 @@
             </div>
         </section>
 
-        <section class="Blog">
+        <section class="Blog" id="blog">
             <div class="blog-sec">
                 <div class="blog-text">
                 <h1>Blog</h1>
@@ -301,7 +285,7 @@
             </div>
         </section>
   <!-- happy-clients secction -->
-        <section class="happy-clients">
+        <section class="happy-clients" id="hp">
             <div class="clients-text">
                 <h1>Happy Clients</h1>
                 <p>There are many variations of passages of Lorem Ipsum available,
@@ -351,11 +335,11 @@
        
 
         
-        <section class="last-sec">
+        <!-- <section class="last-sec"> -->
 
             <!-- let's discuss your Project -->
 
-            <section class="Contact">
+            <section class="Contact" id="contact">
                 <div class="discuss-pro">
                     <div class="dis-text">
                         <h2>Let’s discuss your Project</h2>
@@ -429,7 +413,7 @@
                             </div>
                         
                             <label for="message">Message*</label>
-                            <textarea id="message" rows="4" required></textarea>
+                            <textarea id="message" rows="1" required></textarea>
                         
                             <button type="submit">Submit</button>
                         </form>
@@ -440,36 +424,19 @@
 
             <!-- footer -->
             <footer>
-            <div class="logo">
-                <img src="images/Logo.svg" alt="logo">
-            </div>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Process</a>
-                </li>
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                
-            </ul>
-            <li>
-                <p>Copyright &copy; 2025 Ashutosh</p>
-            </li>
-        </footer>
-        </section>
+                <div class="logo">
+                    <img src="images/Logo.svg" alt="logo">
+                </div>
+                <span>Copyright &copy; 2025 Ashutosh</span>
+            </footer>
+        <!-- </section> -->
    
-</body>
+    </body>
+
+    <script>
+         function toggleMenu() {
+         document.querySelector('.navbar').classList.toggle('show');
+    }
+    </script>
 
 </html>
